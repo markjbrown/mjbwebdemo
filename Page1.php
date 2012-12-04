@@ -30,7 +30,7 @@ else
 </head>
 <body>
 <h1>What is your name?</h1>
-<h4>Demo showing PHP app written on Mac deployed to Azure Websites</h4>
+<h4>Demo showing PHP app written on Mac, stored on GitHub, deployed to Azure Websites</h4>
 <form action="Page1.php" method="post">
     <label id="lblfname"> First name: </label><input type="text" name="fname"><br>
     <label id="lbllname"> Last name: </label><input type="text" name="lname"><br>
