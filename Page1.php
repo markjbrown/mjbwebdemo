@@ -20,7 +20,7 @@ $lname=get('lname');
 if (strlen($fname) > 0 && strlen($lname) > 0)
     echo "Your name is " . $fname . ' ' . $lname;
 else
-    echo "You need to enter a first and last name"
+    echo "You need to enter a first and last name DUDE"
 ?>
 
 <!DOCTYPE html>
