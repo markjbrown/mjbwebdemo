@@ -52,7 +52,7 @@ if($conn_str = getenv("DBConnString")) {
 } else {
   $host = "localhost";
   $user = "root";
-  $pwd = "pass@word1";
+  $pwd = "root";
   $db = "registration";
 }
 
