@@ -35,16 +35,16 @@ if($conn_str = getenv("DBConnString")) {
   foreach($parts as $part){
     $temp = explode("=", $part);
     switch ($temp[0]) {
-      case 'Database':
+      case 'database':
         $db = $temp[1];
         break;
-      case 'Data Source':
+      case 'server':
         $host = $temp[1];
         break;
-      case 'User Id':
+      case 'uid':
         $user = $temp[1];
         break;
-      case 'Password':
+      case 'pwd':
         $pwd = $temp[1];
         break;
     }
